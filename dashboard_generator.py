@@ -21,6 +21,7 @@ print("-----------------------")
 # prompt user input for month selection
 csv_file_path = '/Users/annieyin/Documents/GitHub/intro-to-python/data/monthly-sales'
 input_list = os.listdir(csv_file_path)
+
 for file_name in input_list:
     print(file_name)
 user_input = input("Select month (yyyymm) from list above:")

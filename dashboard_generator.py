@@ -19,7 +19,7 @@ def tousd(total_sale):
 
 print("-----------------------")
 # prompt user input for month selection
-csv_file_path = '/Users/annieyin/Documents/GitHub/intro-to-python/data/monthly-sales'
+csv_file_path = os.path.join(os.path.dirname(__file__),"data")
 input_list = os.listdir(csv_file_path)
 
 for file_name in input_list:
